@@ -109,6 +109,13 @@ enquanto (opcao_menu_principal != 0)
          limpa()
          escreva("--- SEU CARRINHO DE COMPRAS ---\n\n")
          valor_total_bruto = (qtd_carrinho_prod1 * preco_prod1) + (qtd_carrinho_prod2 * preco_prod2) + (qtd_carrinho_prod3 * preco_prod3)
+             escreva("1. Camisa Esportiva - Qtd: ", qtd_carrinho_prod1, " - Total: R$ ", (qtd_carrinho_prod1 * preco_prod1), "\n")
+         escreva("2. Boné Casual       - Qtd: ", qtd_carrinho_prod2, " - Total: R$ ", (qtd_carrinho_prod2 * preco_prod2), "\n")
+         escreva("3. Tênis de Corrida  - Qtd: ", qtd_carrinho_prod3, " - Total: R$ ", (qtd_carrinho_prod3 * preco_prod3), "\n")
+         escreva("-----------------------------------------------------\n")
+         escreva("VALOR TOTAL PARCIAL: R$ ", valor_total_bruto, "\n\n")
+
+
 
 
 
