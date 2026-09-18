@@ -95,6 +95,22 @@ enquanto (opcao_menu_principal != 0)
          } senao {
            escreva("\nProduto inválido!\n")
          }
+              
+
+         escreva("\nPressione ENTER para voltar ao menu...")
+         leia(tecla_pausa)
+         pare
+
+
+       // ====================================================
+       // R - READ (Ver Carrinho)
+       // ====================================================
+       caso 2:
+         limpa()
+         escreva("--- SEU CARRINHO DE COMPRAS ---\n\n")
+         valor_total_bruto = (qtd_carrinho_prod1 * preco_prod1) + (qtd_carrinho_prod2 * preco_prod2) + (qtd_carrinho_prod3 * preco_prod3)
+
+
 
 
 
