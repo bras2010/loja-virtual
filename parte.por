@@ -148,6 +148,13 @@ se (opcao_crud == 1) {
              qtd_carrinho_prod1 = quantidade_temp
              estoque_prod1 = estoque_prod1 - quantidade_temp
              escreva("\nQuantidade atualizada!\n")
+             } senao {
+             estoque_prod1 = estoque_prod1 - qtd_carrinho_prod1 // desfaz alteração
+             escreva("\nQuantidade indisponível no estoque!\n")
+           }
+         } senao se (opcao_crud == 2) {
+           estoque_prod2 = estoque_prod2 + qtd_carrinho_prod2
+           se (quantidade_temp >= 0 e quantidade_temp <= estoque_prod2) {
 
 
 
