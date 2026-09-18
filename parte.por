@@ -129,6 +129,16 @@ enquanto (opcao_menu_principal != 0)
          escreva("1. Camisa Esportiva (No Carrinho: ", qtd_carrinho_prod1, ")\n")
          escreva("2. Boné Casual       (No Carrinho: ",
 qtd_carrinho_prod2, ")\n")
+       
+
+         escreva("3. Tênis de Corrida  (No Carrinho: ", qtd_carrinho_prod3, ")\n\n")
+         escreva("Escolha o item que deseja alterar: ")
+         leia(opcao_crud)
+         escreva("Digite a NOVA quantidade total desejada no carrinho: ")
+         leia(quantidade_temp)
+
+
+         // Devolve o estoque antigo primeiro para recalcular
 
 
 
