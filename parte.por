@@ -84,6 +84,19 @@ enquanto (opcao_menu_principal != 0)
            } senao {
              escreva("\nQuantidade inválida ou estoque insuficiente!\n")
            }
+              } senao se (opcao_crud == 3) {
+           se (quantidade_temp > 0 e quantidade_temp <= estoque_prod3) {
+             qtd_carrinho_prod3 = qtd_carrinho_prod3 + quantidade_temp
+             estoque_prod3 = estoque_prod3 - quantidade_temp
+             escreva("\nItem adicionado ao carrinho com sucesso!\n")
+           } senao {
+             escreva("\nQuantidade inválida ou estoque insuficiente!\n")
+           }
+         } senao {
+           escreva("\nProduto inválido!\n")
+         }
+
+
 
 
  
