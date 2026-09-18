@@ -140,6 +140,14 @@ qtd_carrinho_prod2, ")\n")
 
          // Devolve o estoque antigo primeiro para recalcular
 
+       
+
+se (opcao_crud == 1) {
+           estoque_prod1 = estoque_prod1 + qtd_carrinho_prod1
+           se (quantidade_temp >= 0 e quantidade_temp <= estoque_prod1) {
+             qtd_carrinho_prod1 = quantidade_temp
+             estoque_prod1 = estoque_prod1 - quantidade_temp
+             escreva("\nQuantidade atualizada!\n")
 
 
 
