@@ -166,6 +166,10 @@ se (opcao_crud == 1) {
               } senao se (opcao_crud == 3) {
            estoque_prod3 = estoque_prod3 + qtd_carrinho_prod3
            se (quantidade_temp >= 0 e quantidade_temp <= estoque_prod3) {
+            qtd_carrinho_prod3 = quantidade_temp
+             estoque_prod3 = estoque_prod3 - quantidade_temp
+             escreva("\nQuantidade atualizada!\n")
+
 
 
 
