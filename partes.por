@@ -178,6 +178,18 @@ se (opcao_crud == 1) {
 
 
          escreva("\nPressione ENTER para voltar ao menu...")
+         leia(tecla_pausa)
+         pare
+
+
+       // ====================================================
+       // D - DELETE (Remover Item do Carrinho)
+       // ====================================================
+       caso 4:
+         limpa()
+         escreva("--- REMOVER ITEM DO CARRINHO ---\n\n")
+         escreva("1. Remover todas as Camisas\n")
+
 
 
 
