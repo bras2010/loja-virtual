@@ -267,6 +267,12 @@ se (opcao_crud == 1) {
      // ==========================================
      limpa()
      escreva("==================================================\n")
+          escreva("           NOTA FISCAL - LOJA VIRTUAL             \n")
+     escreva("==================================================\n\n")
+     escreva("Itens comprados:\n")
+
+
+     se (qtd_carrinho_prod1 > 0) {
 
 
 
