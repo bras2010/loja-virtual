@@ -238,6 +238,14 @@ se (opcao_crud == 1) {
 
    se (valor_total_bruto == 0) {
      escreva("Você não comprou nenhum produto. Obrigado por visitar nossa loja!\n")
+       } senao {
+     escreva("=== TELA DE PAGAMENTO ===\n\n")
+     escreva("Valor total da compra: R$ ", valor_total_bruto, "\n\n")
+     escreva("Formas de pagamento:\n")
+     escreva("1. À vista no Pix (10% de Desconto)\n")
+     escreva("2. Cartão de Crédito (Valor Integral)\n\n")
+     escreva("Escolha a forma de pagamento: ")
+     leia(opcao_pagamento)
 
 
 
