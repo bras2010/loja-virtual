@@ -189,6 +189,14 @@ se (opcao_crud == 1) {
          limpa()
          escreva("--- REMOVER ITEM DO CARRINHO ---\n\n")
          escreva("1. Remover todas as Camisas\n")
+           escreva("2. Remover todos os Bonés\n")
+         escreva("3. Remover todos os Tênis\n\n")
+         escreva("Escolha qual produto remover completamente: ")
+         leia(opcao_crud)
+
+
+         se (opcao_crud == 1) {
+
          
 
 
