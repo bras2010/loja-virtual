@@ -281,6 +281,20 @@ se (opcao_crud == 1) {
      se (qtd_carrinho_prod3 > 0) {
        escreva("- ", qtd_carrinho_prod3, "x Tênis de Corrida = R$ ", (qtd_carrinho_prod3 * preco_prod3), "\n")
      }
+       
+
+     escreva("--------------------------------------------------\n")
+     escreva("Valor Bruto: R$ ", valor_total_bruto, "\n")
+     escreva("Desconto:    R$ ", valor_desconto, "\n")
+     escreva("VALOR FINAL: R$ ", valor_final, "\n")
+     escreva("--------------------------------------------------\n")
+     escreva("Obrigado pela preferência e volte sempre!\n")
+   }
+ }
+}
+
+
+
 
 
 
@@ -302,8 +316,3 @@ se (opcao_crud == 1) {
 
 
  
-
-
-    }
-}
-}
