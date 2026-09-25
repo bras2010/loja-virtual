@@ -202,6 +202,15 @@ se (opcao_crud == 1) {
          } senao se (opcao_crud == 2) {
            estoque_prod2 = estoque_prod2 + qtd_carrinho_prod2
            qtd_carrinho_prod2 = 0
+                 escreva("\nProduto removido do carrinho!\n")
+         } senao se (opcao_crud == 3) {
+           estoque_prod3 = estoque_prod3 + qtd_carrinho_prod3
+           qtd_carrinho_prod3 = 0
+           escreva("\nProduto removido do carrinho!\n")
+         } senao {
+           escreva("\nOpção inválida!\n")
+         }
+
 
 
          
