@@ -40,7 +40,7 @@ enquanto (opcao_menu_principal != 0)
     escreva("3. Alterar a quantidade no carrinho (UPDATE)\n")
     escreva("4. remover item do carrinho (DELETE)\n")
     escreva("0. Finalizar compra e ir ao pagamento\n\n")
-    leia(opacao_menu_principal)
+    leia(opcao_menu_principal)
  
      escolha (opcao_menu_principal) {
 
@@ -187,11 +187,11 @@ se (opcao_crud == 1) {
        // ====================================================
        caso 4:
          limpa()
-         escreva("--- REMOVER ITEM DO CARRINHO ---\n\n")
-         escreva("1. Remover todas as Camisas\n")
-           escreva("2. Remover todos os Bonés\n")
-         escreva("3. Remover todos os Tênis\n\n")
-         escreva("Escolha qual produto remover completamente: ")
+          escreva("--- REMOVER ITEM DO CARRINHO ---\n\n")
+          escreva("1. Remover todas as Camisas\n")
+          escreva("2. Remover todos os Bonés\n")
+          escreva("3. Remover todos os Tênis\n\n")
+          escreva("Escolha qual produto remover completamente: ")
          leia(opcao_crud)
 
 
