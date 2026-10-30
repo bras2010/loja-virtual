@@ -32,9 +32,9 @@ enquanto (opcao_menu_principal != 0)
     // Limpa a tela a cada iteração para manter o menu organizado
     limpa()
     
-    escreva("=== BEM-VINDO À NOSSA LOJA VIRTUAL ===")
-    escreva("---------------------------------------")
-    escreva("MENU PRINCIPAL")
+    escreva("=== BEM-VINDO À NOSSA LOJA VIRTUAL ===\n")
+    escreva("---------------------------------------\n")
+    escreva("MENU PRINCIPAL\n")
     escreva("1. Ver Produtos e Adicionar ao Carrinho (CREATE)\n")
     escreva("2. Ver meus itens no carrinho (READ)\n")
     escreva("3. Alterar a quantidade no carrinho (UPDATE)\n")
@@ -293,26 +293,3 @@ se (opcao_crud == 1) {
  }
 }
 
-
-
-
-
-
-
-
-
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
